@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17044983718"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17044983718');
+</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicii și Tarife - ARTeeth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="imagini/logo.webp" alt="Logo ARTeeth">
+                    <h1>Clinica Stomatologică ARTeeth</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">DESPRE NOI</a></li>
+                    <li><a href="servicii.html">SERVICII</a></li>
+                    <li><a href="urgente.html">URGENȚE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="javascript:void(0)" id="programare-btn-header" class="btn-nav">PROGRAMARE</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-icon">☰</div>
+        </div>
+    </header>
+
+
+
+    <section id="servicii" class="why-us-section section-padding">
+        <div class="container">
+            <h2 class="section-title light-text">SERVICIILE NOASTRE</h2>
+            <div class="services-icon-grid">
+                <div class="service-icon-card" onclick="openService(0)"><img src="imagini/icon-general.webp" class="service-draw"><h3>Stomatologie generală</h3></div>
+                <div class="service-icon-card" onclick="openService(1)"><img src="imagini/chiru.webp" class="service-draw"><h3>Chirurgie</h3></div>
+                <div class="service-icon-card" onclick="openService(2)"><img src="imagini/endo.webp" class="service-draw"><h3>Endodonție</h3></div>
+                <div class="service-icon-card" onclick="openService(3)"><img src="imagini/estetica.webp" class="service-draw"><h3>Estetică</h3></div>
+                <div class="service-icon-card" onclick="openService(4)"><img src="imagini/protetica.webp" class="service-draw"><h3>Protetică</h3></div>
+                <div class="service-icon-card" onclick="openService(5)"><img src="imagini/implanto.webp" class="service-draw"><h3>Implantologie</h3></div>
+                <div class="service-icon-card" onclick="openService(6)"><img src="imagini/pedo.webp" class="service-draw"><h3>Pedodonție</h3></div>
+                <div class="service-icon-card" onclick="openService(7)"><img src="imagini/orto.webp" class="service-draw"><h3>Ortodonție</h3></div>
+                <div class="service-icon-card" onclick="openService(8)"><img src="imagini/paro.webp" class="service-draw"><h3>Parodontologie</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="pricing-accordion-container" style="margin-top: 60px; max-width: 800px; margin-left: auto; margin-right: auto;">
+    <h3 class="text-center" style="margin-bottom: 30px; color: #0056b3;">LISTĂ DE TARIFE ARTEETH</h3>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Consultații</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Consultație</td><td>100 RON</td></tr>
+                <tr><td>Consultație urgență (+ manoperă)</td><td>200 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Endodonție</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Drenaj endodontic</td><td>150 RON</td></tr>
+                <tr><td>Tratament Endodontic – incisiv-canin</td><td>350 RON</td></tr>
+                <tr><td>Tratament Endodontic – premolar</td><td>450 RON</td></tr>
+                <tr><td>Tratament Endodontic – molar</td><td>550 RON</td></tr>
+                <tr><td>Retratament endodontic incisiv-canin</td><td>500 RON</td></tr>
+                <tr><td>Retratament endodontic premolar</td><td>600 RON</td></tr>
+                <tr><td>Retratament endodontic molar</td><td>700 RON</td></tr>
+                <tr><td>Aplicare Pivot – fibră de sticlă</td><td>200 RON</td></tr>
+                <tr><td>Aplicare Biociment MTA</td><td>150 RON</td></tr>
+                <tr><td>Ședință intermediară de CaOH</td><td>150 RON</td></tr>
+                <tr><td>Pansament calmant</td><td>150 RON</td></tr>
+                <tr><td>Albire endodontică</td><td>200 RON</td></tr>
+                <tr><td>Tratament de canal – dinți temporari</td><td>150 RON</td></tr>
+                <tr><td>Reconstrucție după tratament de canal</td><td>300 - 400 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+           </i> Ortodonție</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Consultație ortodontică</td><td>300 RON</td></tr>
+                <tr><td>Aparat Fix Metalic / arcadă</td><td>3000 RON</td></tr>
+                <tr><td>Activare Aparat Fix</td><td>250 - 300 RON</td></tr>
+                <tr><td>Contenție fixă / Gutieră</td><td>400 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Chirurgie și Implantologie</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Extracție – Dinte temporar/parodontotic</td><td>150 RON</td></tr>
+                <tr><td>Extracție – Dinte monoradicular</td><td>250 RON</td></tr>
+                <tr><td>Extracție – Dinte pluriradicular</td><td>350 RON</td></tr>
+                <tr><td>Extracție – Molar de minte (erupt)</td><td>400 RON</td></tr>
+                <tr><td>Extracție – Molar de minte (inclus)</td><td>600 RON</td></tr>
+                <tr><td>Descoperire – Canin inclus</td><td>400 RON</td></tr>
+                <tr><td>Rezecție apicală (mono/pluri)</td><td>400 - 500 RON</td></tr>
+                <tr><td>Implant Any Ridge Megagen</td><td>3200 RON</td></tr>
+                <tr><td>Implant Neodent Straumann</td><td>2800 RON</td></tr>
+                <tr><td>Adiție osoasă / Implant</td><td>1500 - 2500 RON</td></tr>
+                <tr><td>Sinus Lift</td><td>2000 RON</td></tr>
+                <tr><td>Descoperire Implant</td><td>200 RON</td></tr>
+                <tr><td>Frenectomie / Regularizare</td><td>400 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+           </i> Profilaxie și Estetică</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Detartraj + Periaj + Airflow</td><td>350 RON</td></tr>
+                <tr><td>Fluorizare</td><td>100 RON</td></tr>
+                <tr><td>Albire Philips Zoom</td><td>1600 RON</td></tr>
+                <tr><td>Bijuterii dentare</td><td>200 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Stomatologie Generală</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Obturație (Plombă) 1 suprafață</td><td>300 RON</td></tr>
+                <tr><td>Obturație 2-3 suprafețe</td><td>400 RON</td></tr>
+                <tr><td>Obturație frontală</td><td>350 RON</td></tr>
+                <tr><td>Obturație colet</td><td>200 RON</td></tr>
+                <tr><td>Obturație dinte temporal</td><td>150 RON</td></tr>
+                <tr><td>Sigilare / Coafaj</td><td>100 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+     <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Pedodonție (Copii)</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Sigilare dinte temporar</td><td>100 RON</td></tr>
+                <tr><td>Sigilare dinte permanent</td><td>150 RON</td></tr>
+                <tr><td>Menținător de spațiu fix</td><td>400 RON</td></tr>
+                <tr><td>Pulpectomie / Tratament canal copii</td><td>150 - 200 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Protetică Dentară</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Onlay/inlay compozit</td><td>500 RON</td></tr>
+                <tr><td>Coroană metalo-ceramică</td><td>800 RON</td></tr>
+                <tr><td>Coroană zirconiu monolitic</td><td>1500 RON</td></tr>
+                <tr><td>Coroană ceramică pe zirconiu</td><td>1600 RON</td></tr>
+                <tr><td>Fațetă compozit</td><td>400 RON</td></tr>
+                <tr><td>Proteză totală / arcadă</td><td>1800 RON</td></tr>
+                <tr><td>Coroană pe implant (Metalo/Zirconiu)</td><td>1600 - 2500 RON</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <button class="accordion-header">
+            </i> Parodontologie</span>
+            <i class="fas fa-chevron-down arrow"></i>
+        </button>
+        <div class="accordion-content">
+            <table class="pricing-table">
+                <tr><td>Parodontometrie</td><td>200 RON</td></tr>
+                <tr><td>Chiuretaj subgingival / dinte</td><td>150 RON</td></tr>
+                <tr><td>Chiuretaj subgingival / arcadă</td><td>1000 RON</td></tr>
+                <tr><td>Grefă țesut conjunctiv</td><td>1200 RON</td></tr>
+                <tr><td>Imobilizare dinți</td><td>500 RON</td></tr>
+                <tr><td>Gingivectomie / dinte</td><td>250 RON</td></tr>
+            </table>
+        </div>
+
+        </div>
+        </div>
+
+    <div id="serviceModal" class="modal-simple">
+        <div class="modal-box service-modal-content">
+            <span class="inchide-modal" onclick="closeService()">×</span>
+            <div id="modalBody" class="service-modal-inner"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<div id="modal-contact" class="modal-simple">
+    <div class="modal-box">
+        <span class="inchide-modal">×</span>
+        <h3>Alege metoda de programare:</h3>
+        <div class="butoane-contact">
+            <a href="tel:+40773988959" class="opt-btn apel">
+                <i class="fas fa-phone-alt"></i> Apel
+            </a>
+            <a href="https://wa.me/40773988959" target="_blank" class="opt-btn whatsapp">
+                <i class="fab fa-whatsapp"></i> Mesaj WhatsApp
+            </a>
+        </div>
+    </div>
+</div>
+<div id="modal-contact" class="modal-simple">
+    <div class="modal-box">
+        <span class="inchide-modal">×</span>
+        <h3>Alege metoda de programare:</h3>
+        <div class="butoane-contact">
+            <a href="tel:+40773988959" class="opt-btn apel"><i class="fas fa-phone-alt"></i> Apel</a>
+            <a href="https://wa.me/40773988959" target="_blank" class="opt-btn whatsapp"><i class="fab fa-whatsapp"></i> Mesaj WhatsApp</a>
+        </div>
+    </div>
+</div>
+<footer>
+        <div class="container text-center">
+            <p>© 2026 Clinica ARTeeth Cluj. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+<div class="social-sidebar">
+    <a href="https://wa.me/40773988959" target="_blank" class="social-btn whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/p/ARTeeth-Cluj-Napoca-61572386507470/" target="_blank" class="social-btn facebook-btn">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/arteethcluj/" target="_blank" class="social-btn instagram-btn">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+</body>
+</html>
